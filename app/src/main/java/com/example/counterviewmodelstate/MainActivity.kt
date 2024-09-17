@@ -65,7 +65,7 @@ fun Counter(
         )
         Spacer(modifier = Modifier.height(16.dp))
         Row(horizontalArrangement = Arrangement.Center) {
-            Button(onClick = { onIncrement }) {
+            Button(onClick = { onIncrement() }) {
                 Text(text = "Increment")
             }
             Spacer(modifier = Modifier.width(16.dp))
